@@ -1,0 +1,20 @@
+@tailwind base;
+
+@font-face {
+  font-family: "Mona Sans";
+  font-weight: 200 900;
+  font-display: block;
+  font-style: normal;
+  font-stretch: 75% 125%;
+  src: url("../fonts//Mona-Sans.var.woff2");
+}
+
+.bg-primary {
+  background-image: linear-gradient(90deg, #20014b, #400095);
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  padding: clamp(1.57rem, .85rem + 3.84vw, 6.99rem);
+}
