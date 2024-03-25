@@ -1,34 +1,32 @@
 import Link from "next/link";
 import clsx from "clsx";
 import {
-  BsFacebook,
-  BsTwitter,
-  BsGithub,
-  BsYoutube,
-  BsLinkedin,
-} from "react-icons/bs";
+  RiFacebookBoxFill,
+  RiTwitterXLine,
+  RiInstagramFill,
+  RiLinkedinFill,
+} from "react-icons/ri";
 
 export const SocialMediaProfiles = [
   {
-    title: "Youtube",
-    href: "https://www.youtube.com/watch?v=eAswnbWptBM",
-    icon: BsYoutube,
-  },
-  { title: "GitHub", href: "https://github.com/chrhi", icon: BsGithub },
-  {
     title: "Facebook",
-    href: "https://www.facebook.com/profile.php?id=100010070348939",
-    icon: BsFacebook,
+    href: "",
+    icon: RiFacebookBoxFill,
   },
   {
-    title: "linkedin",
-    href: "https://www.linkedin.com/in/chehri-abdellah-4a8858267/",
-    icon: BsLinkedin,
+    title: "Instagram",
+    href: "",
+    icon: RiInstagramFill,
+  },
+  {
+    title: "Linkedin",
+    href: "",
+    icon: RiLinkedinFill,
   },
   {
     title: "Twitter",
-    href: "https://twitter.com/KING_IN_JUNGLE",
-    icon: BsTwitter,
+    href: "",
+    icon: RiTwitterXLine,
   },
 ];
 

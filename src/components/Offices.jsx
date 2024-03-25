@@ -8,7 +8,7 @@ function Office({ name, children, invert = false }) {
         invert ? "text-neutral-300" : "text-neutral-600"
       )}
     >
-      <strong className={invert ? "text-white" : "text-neutral-950"}>
+      <strong className={invert ? "text-white uppercase" : "text-neutral-950 uppercase"}>
         {name}
       </strong>
       <br />
@@ -22,16 +22,16 @@ const Offices = ({ invert = false, ...props }) => {
     <ul role="list" {...props}>
       <li>
         <Office name="U.S.A" invert={invert}>
-          on bay mark
+          Axa Equitable Center
           <br />
-          Newtown city of Las Vegas
+          Manhattan, New York
         </Office>
       </li>
       <li>
-        <Office name="London" invert={invert}>
-          13 long Street
+        <Office name="India" invert={invert}>
+          Bagmane World Technology Centre
           <br />
-          Downtown, Allyway
+          Bengaluru, Karnataka
         </Office>
       </li>
     </ul>
